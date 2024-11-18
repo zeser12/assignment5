@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.siliconvalley.simulator.strategy.StrategyTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-18T03:35:01" hostname="Zeynebs-MBP.lan" time="0.007">
+  <properties/>
+  <testcase name="testEconomicDownturnEffect()" classname="com.siliconvalley.simulator.strategy.StrategyTest" time="0.007"/>
+  <system-out><![CDATA[Boosting revenue for Healthcare startup by 20%
+Effect applied on Healthcare startup
+Reducing revenue for FinTech startup by 20%
+Effect applied on FinTech startup
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

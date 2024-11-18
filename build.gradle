@@ -1,0 +1,51 @@
+plugins {
+    id 'java'
+    id 'application' // Add application plugin
+    id 'checkstyle'
+    id 'jacoco'
+    id 'com.github.spotbugs' version '5.0.14'
+}
+
+group 'com.siliconvalley.simulator'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+jacocoTestReport {
+    reports {
+        xml.required = true
+        csv.required = false
+        html.outputLocation = layout.buildDirectory.dir('reports/jacoco/test/html')
+    }
+}
+
+dependencies {
+    testImplementation 'org.junit.jupiter:junit-jupiter:5.9.3'
+}
+
+test {
+    useJUnitPlatform()
+}
+
+tasks.withType(JavaCompile) {
+    options.encoding = 'UTF-8'
+}
+
+checkstyle {
+    toolVersion = '10.11.0'
+    configFile = file('config/checkstyle.xml')
+    ignoreFailures = true
+}
+
+spotbugs {
+    toolVersion = '4.7.3'
+    ignoreFailures = true  // Allows the build to pass even with SpotBugs warnings
+    effort = 'max'
+    reportLevel = 'high'
+}
+
+application {
+    mainClass = 'com.siliconvalley.simulator.Main' // Specify the Main class
+}

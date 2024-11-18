@@ -1,0 +1,3 @@
+/Users/zeynebeser/Desktop/SiliconValleySimulatorFinalWithGradle/build/classes/java/test/com/siliconvalley/simulator/decorator/DecoratorTest.class
+/Users/zeynebeser/Desktop/SiliconValleySimulatorFinalWithGradle/build/classes/java/test/com/siliconvalley/simulator/builder/BuilderTest.class
+/Users/zeynebeser/Desktop/SiliconValleySimulatorFinalWithGradle/build/classes/java/test/com/siliconvalley/simulator/strategy/StrategyTest.class

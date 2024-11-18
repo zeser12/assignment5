@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.siliconvalley.simulator.builder.BuilderTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2024-11-18T03:35:01" hostname="Zeynebs-MBP.lan" time="0.019">
+  <properties/>
+  <testcase name="testTechGiantBuilder()" classname="com.siliconvalley.simulator.builder.BuilderTest" time="0.019"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

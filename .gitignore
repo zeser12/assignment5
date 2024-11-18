@@ -1,0 +1,24 @@
+# .gitignore
+
+# OS files
+.DS_Store
+
+# Compiled class files
+*.class
+
+# Build directories
+build/
+bin/
+
+# IDE specific files
+.project
+.classpath
+.settings/
+.idea/
+.gradle/
+
+# Local environment configurations
+local.properties
+
+# Log files
+*.log
